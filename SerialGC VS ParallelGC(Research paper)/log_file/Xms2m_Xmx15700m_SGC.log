@@ -1,0 +1,485 @@
+[0.020s][info][gc,init] CardTable entry size: 512
+[0.020s][info][gc     ] Using Serial
+[0.020s][info][gc,init] Version: 18.0.1+10 (release)
+[0.020s][info][gc,init] CPUs: 8 total, 8 available
+[0.020s][info][gc,init] Memory: 16063M
+[0.020s][info][gc,init] Large Page Support: Disabled
+[0.020s][info][gc,init] NUMA Support: Disabled
+[0.020s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[0.020s][info][gc,init] Heap Min Capacity: 2M
+[0.020s][info][gc,init] Heap Initial Capacity: 2M
+[0.020s][info][gc,init] Heap Max Capacity: 15700M
+[0.020s][info][gc,init] Pre-touch: Disabled
+[0.021s][info][gc,metaspace] CDS archive(s) not mapped
+[0.021s][info][gc,metaspace] Compressed class space mapped at: 0x0000000800000000-0x0000000840000000, reserved size: 1073741824
+[0.021s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x40000000
+[0.186s][info][gc,start    ] GC(0) Pause Young (Allocation Failure)
+[0.188s][info][gc,heap     ] GC(0) DefNew: 1023K(1152K)->127K(1152K) Eden: 1023K(1024K)->0K(1024K) From: 0K(128K)->127K(128K)
+[0.188s][info][gc,heap     ] GC(0) Tenured: 0K(768K)->440K(768K)
+[0.188s][info][gc,metaspace] GC(0) Metaspace: 5903K(6016K)->5903K(6016K) NonClass: 5404K(5504K)->5404K(5504K) Class: 499K(512K)->499K(512K)
+[0.188s][info][gc          ] GC(0) Pause Young (Allocation Failure) 0M->0M(1M) 2.345ms
+[0.188s][info][gc,cpu      ] GC(0) User=0.00s Sys=0.00s Real=0.00s
+[0.208s][info][gc,start    ] GC(1) Pause Young (Allocation Failure)
+[0.209s][info][gc          ] GC(1) Pause Young (Allocation Failure) 1M->0M(2M) 1.312ms
+[0.209s][info][gc,cpu      ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[0.210s][info][gc,start    ] GC(2) Pause Full (Allocation Failure)
+[0.210s][info][gc,phases,start] GC(2) Phase 1: Mark live objects
+[0.211s][info][gc,phases      ] GC(2) Phase 1: Mark live objects 1.005ms
+[0.211s][info][gc,phases,start] GC(2) Phase 2: Compute new object addresses
+[0.211s][info][gc,phases      ] GC(2) Phase 2: Compute new object addresses 0.247ms
+[0.211s][info][gc,phases,start] GC(2) Phase 3: Adjust pointers
+[0.211s][info][gc,phases      ] GC(2) Phase 3: Adjust pointers 0.505ms
+[0.211s][info][gc,phases,start] GC(2) Phase 4: Move objects
+[0.211s][info][gc,phases      ] GC(2) Phase 4: Move objects 0.064ms
+[0.212s][info][gc,heap        ] GC(2) DefNew: 1151K(1152K)->40K(1152K) Eden: 1024K(1024K)->40K(1024K) From: 127K(128K)->0K(128K)
+[0.212s][info][gc,heap        ] GC(2) Tenured: 440K(768K)->959K(1600K)
+[0.212s][info][gc,metaspace   ] GC(2) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.212s][info][gc             ] GC(2) Pause Full (Allocation Failure) 0M->0M(2M) 2.113ms
+[0.212s][info][gc,cpu         ] GC(2) User=0.00s Sys=0.00s Real=0.00s
+[0.213s][info][gc,start       ] GC(3) Pause Young (Allocation Failure)
+[0.215s][info][gc,heap        ] GC(3) DefNew: 1024K(1152K)->128K(1152K) Eden: 1024K(1024K)->0K(1024K) From: 0K(128K)->128K(128K)
+[0.215s][info][gc,heap        ] GC(3) Tenured: 959K(1600K)->1375K(1600K)
+[0.215s][info][gc,metaspace   ] GC(3) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.215s][info][gc             ] GC(3) Pause Young (Allocation Failure) 1M->1M(2M) 1.625ms
+[0.215s][info][gc,cpu         ] GC(3) User=0.00s Sys=0.00s Real=0.00s
+[0.217s][info][gc,start       ] GC(4) Pause Young (Allocation Failure)
+[0.218s][info][gc             ] GC(4) Pause Young (Allocation Failure) 2M->1M(3M) 1.273ms
+[0.218s][info][gc,cpu         ] GC(4) User=0.00s Sys=0.00s Real=0.00s
+[0.218s][info][gc,start       ] GC(5) Pause Full (Allocation Failure)
+[0.218s][info][gc,phases,start] GC(5) Phase 1: Mark live objects
+[0.220s][info][gc,phases      ] GC(5) Phase 1: Mark live objects 1.495ms
+[0.220s][info][gc,phases,start] GC(5) Phase 2: Compute new object addresses
+[0.220s][info][gc,phases      ] GC(5) Phase 2: Compute new object addresses 0.383ms
+[0.220s][info][gc,phases,start] GC(5) Phase 3: Adjust pointers
+[0.221s][info][gc,phases      ] GC(5) Phase 3: Adjust pointers 0.684ms
+[0.221s][info][gc,phases,start] GC(5) Phase 4: Move objects
+[0.221s][info][gc,phases      ] GC(5) Phase 4: Move objects 0.083ms
+[0.221s][info][gc,heap        ] GC(5) DefNew: 1152K(1152K)->35K(1536K) Eden: 1024K(1024K)->35K(1408K) From: 128K(128K)->0K(128K)
+[0.221s][info][gc,heap        ] GC(5) Tenured: 1375K(1600K)->1983K(3308K)
+[0.221s][info][gc,metaspace   ] GC(5) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.221s][info][gc             ] GC(5) Pause Full (Allocation Failure) 1M->1M(4M) 3.011ms
+[0.221s][info][gc,cpu         ] GC(5) User=0.00s Sys=0.00s Real=0.00s
+[0.223s][info][gc,start       ] GC(6) Pause Young (Allocation Failure)
+[0.225s][info][gc,heap        ] GC(6) DefNew: 1408K(1536K)->128K(1536K) Eden: 1408K(1408K)->0K(1408K) From: 0K(128K)->128K(128K)
+[0.225s][info][gc,heap        ] GC(6) Tenured: 1983K(3308K)->2617K(3308K)
+[0.225s][info][gc,metaspace   ] GC(6) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.225s][info][gc             ] GC(6) Pause Young (Allocation Failure) 3M->2M(4M) 1.922ms
+[0.225s][info][gc,cpu         ] GC(6) User=0.00s Sys=0.00s Real=0.00s
+[0.227s][info][gc,start       ] GC(7) Pause Young (Allocation Failure)
+[0.229s][info][gc             ] GC(7) Pause Young (Allocation Failure) 4M->3M(4M) 2.187ms
+[0.229s][info][gc,cpu         ] GC(7) User=0.00s Sys=0.00s Real=0.00s
+[0.229s][info][gc,start       ] GC(8) Pause Full (Allocation Failure)
+[0.229s][info][gc,phases,start] GC(8) Phase 1: Mark live objects
+[0.232s][info][gc,phases      ] GC(8) Phase 1: Mark live objects 2.538ms
+[0.232s][info][gc,phases,start] GC(8) Phase 2: Compute new object addresses
+[0.232s][info][gc,phases      ] GC(8) Phase 2: Compute new object addresses 0.639ms
+[0.233s][info][gc,phases,start] GC(8) Phase 3: Adjust pointers
+[0.234s][info][gc,phases      ] GC(8) Phase 3: Adjust pointers 1.016ms
+[0.234s][info][gc,phases,start] GC(8) Phase 4: Move objects
+[0.234s][info][gc,phases      ] GC(8) Phase 4: Move objects 0.078ms
+[0.234s][info][gc,heap        ] GC(8) DefNew: 1536K(1536K)->0K(2688K) Eden: 1408K(1408K)->0K(2432K) From: 128K(128K)->0K(256K)
+[0.234s][info][gc,heap        ] GC(8) Tenured: 2617K(3308K)->3460K(5768K)
+[0.234s][info][gc,metaspace   ] GC(8) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.234s][info][gc             ] GC(8) Pause Full (Allocation Failure) 3M->3M(8M) 4.616ms
+[0.234s][info][gc,cpu         ] GC(8) User=0.00s Sys=0.00s Real=0.01s
+[0.238s][info][gc,start       ] GC(9) Pause Young (Allocation Failure)
+[0.241s][info][gc,heap        ] GC(9) DefNew: 2432K(2688K)->256K(2688K) Eden: 2432K(2432K)->0K(2432K) From: 0K(256K)->256K(256K)
+[0.241s][info][gc,heap        ] GC(9) Tenured: 3460K(5768K)->4512K(5768K)
+[0.241s][info][gc,metaspace   ] GC(9) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.241s][info][gc             ] GC(9) Pause Young (Allocation Failure) 5M->4M(8M) 3.101ms
+[0.241s][info][gc,cpu         ] GC(9) User=0.00s Sys=0.00s Real=0.00s
+[0.245s][info][gc,start       ] GC(10) Pause Young (Allocation Failure)
+[0.249s][info][gc,heap        ] GC(10) DefNew: 2688K(2688K)->255K(2688K) Eden: 2432K(2432K)->0K(2432K) From: 256K(256K)->255K(256K)
+[0.249s][info][gc,heap        ] GC(10) Tenured: 4512K(5768K)->5755K(5768K)
+[0.249s][info][gc,metaspace   ] GC(10) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.249s][info][gc             ] GC(10) Pause Young (Allocation Failure) 7M->5M(8M) 3.418ms
+[0.249s][info][gc,cpu         ] GC(10) User=0.00s Sys=0.00s Real=0.00s
+[0.252s][info][gc,start       ] GC(11) Pause Young (Allocation Failure)
+[0.256s][info][gc             ] GC(11) Pause Young (Allocation Failure) 8M->7M(9M) 3.518ms
+[0.256s][info][gc,cpu         ] GC(11) User=0.00s Sys=0.00s Real=0.00s
+[0.256s][info][gc,start       ] GC(12) Pause Full (Allocation Failure)
+[0.256s][info][gc,phases,start] GC(12) Phase 1: Mark live objects
+[0.260s][info][gc,phases      ] GC(12) Phase 1: Mark live objects 4.492ms
+[0.261s][info][gc,phases,start] GC(12) Phase 2: Compute new object addresses
+[0.262s][info][gc,phases      ] GC(12) Phase 2: Compute new object addresses 1.199ms
+[0.262s][info][gc,phases,start] GC(12) Phase 3: Adjust pointers
+[0.264s][info][gc,phases      ] GC(12) Phase 3: Adjust pointers 1.750ms
+[0.264s][info][gc,phases,start] GC(12) Phase 4: Move objects
+[0.265s][info][gc,phases      ] GC(12) Phase 4: Move objects 1.495ms
+[0.265s][info][gc,heap        ] GC(12) DefNew: 2687K(2688K)->0K(5376K) Eden: 2432K(2432K)->0K(4800K) From: 255K(256K)->0K(576K)
+[0.265s][info][gc,heap        ] GC(12) Tenured: 5755K(5768K)->7132K(11888K)
+[0.265s][info][gc,metaspace   ] GC(12) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.265s][info][gc             ] GC(12) Pause Full (Allocation Failure) 7M->6M(16M) 9.501ms
+[0.265s][info][gc,cpu         ] GC(12) User=0.00s Sys=0.00s Real=0.01s
+[0.271s][info][gc,start       ] GC(13) Pause Young (Allocation Failure)
+[0.277s][info][gc,heap        ] GC(13) DefNew: 4800K(5376K)->576K(5376K) Eden: 4800K(4800K)->0K(4800K) From: 0K(576K)->576K(576K)
+[0.277s][info][gc,heap        ] GC(13) Tenured: 7132K(11888K)->9027K(11888K)
+[0.277s][info][gc,metaspace   ] GC(13) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.277s][info][gc             ] GC(13) Pause Young (Allocation Failure) 11M->9M(16M) 6.242ms
+[0.277s][info][gc,cpu         ] GC(13) User=0.00s Sys=0.00s Real=0.01s
+[0.282s][info][gc,start       ] GC(14) Pause Young (Allocation Failure)
+[0.289s][info][gc,heap        ] GC(14) DefNew: 5376K(5376K)->576K(5376K) Eden: 4800K(4800K)->0K(4800K) From: 576K(576K)->576K(576K)
+[0.289s][info][gc,heap        ] GC(14) Tenured: 9027K(11888K)->11747K(11888K)
+[0.289s][info][gc,metaspace   ] GC(14) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 533K(640K)->533K(640K)
+[0.289s][info][gc             ] GC(14) Pause Young (Allocation Failure) 14M->12M(16M) 6.221ms
+[0.289s][info][gc,cpu         ] GC(14) User=0.00s Sys=0.00s Real=0.01s
+[0.292s][info][gc,start       ] GC(15) Pause Young (Allocation Failure)
+[0.298s][info][gc             ] GC(15) Pause Young (Allocation Failure) 16M->14M(19M) 6.053ms
+[0.299s][info][gc,cpu         ] GC(15) User=0.00s Sys=0.00s Real=0.01s
+[0.299s][info][gc,start       ] GC(16) Pause Full (Allocation Failure)
+[0.299s][info][gc,phases,start] GC(16) Phase 1: Mark live objects
+[0.307s][info][gc,phases      ] GC(16) Phase 1: Mark live objects 8.301ms
+[0.307s][info][gc,phases,start] GC(16) Phase 2: Compute new object addresses
+[0.309s][info][gc,phases      ] GC(16) Phase 2: Compute new object addresses 2.306ms
+[0.309s][info][gc,phases,start] GC(16) Phase 3: Adjust pointers
+[0.312s][info][gc,phases      ] GC(16) Phase 3: Adjust pointers 3.046ms
+[0.312s][info][gc,phases,start] GC(16) Phase 4: Move objects
+[0.313s][info][gc,phases      ] GC(16) Phase 4: Move objects 0.188ms
+[0.313s][info][gc,heap        ] GC(16) DefNew: 5376K(5376K)->401K(10880K) Eden: 4800K(4800K)->401K(9728K) From: 576K(576K)->0K(1152K)
+[0.313s][info][gc,heap        ] GC(16) Tenured: 11747K(11888K)->14383K(23976K)
+[0.313s][info][gc,metaspace   ] GC(16) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.313s][info][gc             ] GC(16) Pause Full (Allocation Failure) 14M->14M(34M) 14.216ms
+[0.313s][info][gc,cpu         ] GC(16) User=0.02s Sys=0.00s Real=0.02s
+[0.321s][info][gc,start       ] GC(17) Pause Young (Allocation Failure)
+[0.333s][info][gc,heap        ] GC(17) DefNew: 9728K(10880K)->1151K(10880K) Eden: 9728K(9728K)->0K(9728K) From: 0K(1152K)->1151K(1152K)
+[0.333s][info][gc,heap        ] GC(17) Tenured: 14383K(23976K)->18402K(23976K)
+[0.333s][info][gc,metaspace   ] GC(17) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.334s][info][gc             ] GC(17) Pause Young (Allocation Failure) 23M->19M(34M) 12.184ms
+[0.334s][info][gc,cpu         ] GC(17) User=0.00s Sys=0.00s Real=0.01s
+[0.341s][info][gc,start       ] GC(18) Pause Young (Allocation Failure)
+[0.352s][info][gc,heap        ] GC(18) DefNew: 10879K(10880K)->1151K(10880K) Eden: 9728K(9728K)->0K(9728K) From: 1151K(1152K)->1151K(1152K)
+[0.353s][info][gc,heap        ] GC(18) Tenured: 18402K(23976K)->23923K(23976K)
+[0.353s][info][gc,metaspace   ] GC(18) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.353s][info][gc             ] GC(18) Pause Young (Allocation Failure) 28M->24M(34M) 11.967ms
+[0.353s][info][gc,cpu         ] GC(18) User=0.00s Sys=0.00s Real=0.01s
+[0.359s][info][gc,start       ] GC(19) Pause Young (Allocation Failure)
+[0.371s][info][gc             ] GC(19) Pause Young (Allocation Failure) 33M->29M(38M) 11.607ms
+[0.371s][info][gc,cpu         ] GC(19) User=0.00s Sys=0.00s Real=0.01s
+[0.371s][info][gc,start       ] GC(20) Pause Full (Allocation Failure)
+[0.371s][info][gc,phases,start] GC(20) Phase 1: Mark live objects
+[0.385s][info][gc,phases      ] GC(20) Phase 1: Mark live objects 14.131ms
+[0.385s][info][gc,phases,start] GC(20) Phase 2: Compute new object addresses
+[0.390s][info][gc,phases      ] GC(20) Phase 2: Compute new object addresses 4.502ms
+[0.390s][info][gc,phases,start] GC(20) Phase 3: Adjust pointers
+[0.395s][info][gc,phases      ] GC(20) Phase 3: Adjust pointers 5.529ms
+[0.396s][info][gc,phases,start] GC(20) Phase 4: Move objects
+[0.396s][info][gc,phases      ] GC(20) Phase 4: Move objects 0.179ms
+[0.396s][info][gc,heap        ] GC(20) DefNew: 10879K(10880K)->1066K(21888K) Eden: 9728K(9728K)->1066K(19520K) From: 1151K(1152K)->0K(2368K)
+[0.396s][info][gc,heap        ] GC(20) Tenured: 23923K(23976K)->29036K(48396K)
+[0.396s][info][gc,metaspace   ] GC(20) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.396s][info][gc             ] GC(20) Pause Full (Allocation Failure) 29M->29M(68M) 24.764ms
+[0.396s][info][gc,cpu         ] GC(20) User=0.03s Sys=0.00s Real=0.02s
+[0.413s][info][gc,start       ] GC(21) Pause Young (Allocation Failure)
+[0.444s][info][gc,heap        ] GC(21) DefNew: 19520K(21888K)->2367K(21888K) Eden: 19520K(19520K)->0K(19520K) From: 0K(2368K)->2367K(2368K)
+[0.444s][info][gc,heap        ] GC(21) Tenured: 29036K(48396K)->40991K(48396K)
+[0.444s][info][gc,metaspace   ] GC(21) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.444s][info][gc             ] GC(21) Pause Young (Allocation Failure) 47M->42M(68M) 31.609ms
+[0.444s][info][gc,cpu         ] GC(21) User=0.02s Sys=0.00s Real=0.03s
+[0.464s][info][gc,start       ] GC(22) Pause Young (Allocation Failure)
+[0.501s][info][gc             ] GC(22) Pause Young (Allocation Failure) 61M->61M(80M) 36.843ms
+[0.501s][info][gc,cpu         ] GC(22) User=0.03s Sys=0.00s Real=0.04s
+[0.501s][info][gc,start       ] GC(23) Pause Full (Allocation Failure)
+[0.501s][info][gc,phases,start] GC(23) Phase 1: Mark live objects
+[0.527s][info][gc,phases      ] GC(23) Phase 1: Mark live objects 25.779ms
+[0.527s][info][gc,phases,start] GC(23) Phase 2: Compute new object addresses
+[0.537s][info][gc,phases      ] GC(23) Phase 2: Compute new object addresses 9.637ms
+[0.537s][info][gc,phases,start] GC(23) Phase 3: Adjust pointers
+[0.548s][info][gc,phases      ] GC(23) Phase 3: Adjust pointers 11.238ms
+[0.548s][info][gc,phases,start] GC(23) Phase 4: Move objects
+[0.549s][info][gc,phases      ] GC(23) Phase 4: Move objects 0.381ms
+[0.549s][info][gc,heap        ] GC(23) DefNew: 21887K(21888K)->2357K(45440K) Eden: 19520K(19520K)->2357K(40448K) From: 2367K(2368K)->0K(4992K)
+[0.549s][info][gc,heap        ] GC(23) Tenured: 40991K(48396K)->60491K(100820K)
+[0.549s][info][gc,metaspace   ] GC(23) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.549s][info][gc             ] GC(23) Pause Full (Allocation Failure) 61M->61M(142M) 47.678ms
+[0.549s][info][gc,cpu         ] GC(23) User=0.05s Sys=0.00s Real=0.05s
+[0.592s][info][gc,start       ] GC(24) Pause Young (Allocation Failure)
+[0.656s][info][gc,heap        ] GC(24) DefNew: 40448K(45440K)->4992K(45440K) Eden: 40448K(40448K)->0K(40448K) From: 0K(4992K)->4992K(4992K)
+[0.656s][info][gc,heap        ] GC(24) Tenured: 60491K(100820K)->95921K(100820K)
+[0.656s][info][gc,metaspace   ] GC(24) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.656s][info][gc             ] GC(24) Pause Young (Allocation Failure) 98M->98M(142M) 64.372ms
+[0.656s][info][gc,cpu         ] GC(24) User=0.05s Sys=0.02s Real=0.06s
+[0.689s][info][gc,start       ] GC(25) Pause Young (Allocation Failure)
+[0.762s][info][gc             ] GC(25) Pause Young (Allocation Failure) 138M->138M(177M) 73.162ms
+[0.762s][info][gc,cpu         ] GC(25) User=0.05s Sys=0.03s Real=0.07s
+[0.762s][info][gc,start       ] GC(26) Pause Full (Allocation Failure)
+[0.762s][info][gc,phases,start] GC(26) Phase 1: Mark live objects
+[0.821s][info][gc,phases      ] GC(26) Phase 1: Mark live objects 59.000ms
+[0.821s][info][gc,phases,start] GC(26) Phase 2: Compute new object addresses
+[0.843s][info][gc,phases      ] GC(26) Phase 2: Compute new object addresses 21.623ms
+[0.843s][info][gc,phases,start] GC(26) Phase 3: Adjust pointers
+[0.870s][info][gc,phases      ] GC(26) Phase 3: Adjust pointers 27.045ms
+[0.870s][info][gc,phases,start] GC(26) Phase 4: Move objects
+[0.894s][info][gc,phases      ] GC(26) Phase 4: Move objects 23.921ms
+[0.895s][info][gc,heap        ] GC(26) DefNew: 45440K(45440K)->1078K(102400K) Eden: 40448K(40448K)->1078K(91072K) From: 4992K(4992K)->0K(11328K)
+[0.895s][info][gc,heap        ] GC(26) Tenured: 95921K(100820K)->136407K(227348K)
+[0.895s][info][gc,metaspace   ] GC(26) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[0.895s][info][gc             ] GC(26) Pause Full (Allocation Failure) 138M->134M(322M) 132.374ms
+[0.895s][info][gc,cpu         ] GC(26) User=0.12s Sys=0.00s Real=0.13s
+[0.991s][info][gc,start       ] GC(27) Pause Young (Allocation Failure)
+[1.142s][info][gc,heap        ] GC(27) DefNew: 91072K(102400K)->11327K(102400K) Eden: 91072K(91072K)->0K(91072K) From: 0K(11328K)->11327K(11328K)
+[1.142s][info][gc,heap        ] GC(27) Tenured: 136407K(227348K)->216125K(227348K)
+[1.142s][info][gc,metaspace   ] GC(27) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[1.142s][info][gc             ] GC(27) Pause Young (Allocation Failure) 222M->222M(322M) 151.791ms
+[1.142s][info][gc,cpu         ] GC(27) User=0.08s Sys=0.05s Real=0.15s
+[1.224s][info][gc,start       ] GC(28) Pause Young (Allocation Failure)
+[1.395s][info][gc             ] GC(28) Pause Young (Allocation Failure) 311M->311M(400M) 171.360ms
+[1.396s][info][gc,cpu         ] GC(28) User=0.14s Sys=0.02s Real=0.17s
+[1.396s][info][gc,start       ] GC(29) Pause Full (Allocation Failure)
+[1.396s][info][gc,phases,start] GC(29) Phase 1: Mark live objects
+[1.537s][info][gc,phases      ] GC(29) Phase 1: Mark live objects 141.699ms
+[1.537s][info][gc,phases,start] GC(29) Phase 2: Compute new object addresses
+[1.591s][info][gc,phases      ] GC(29) Phase 2: Compute new object addresses 53.390ms
+[1.591s][info][gc,phases,start] GC(29) Phase 3: Adjust pointers
+[1.646s][info][gc,phases      ] GC(29) Phase 3: Adjust pointers 55.474ms
+[1.646s][info][gc,phases,start] GC(29) Phase 4: Move objects
+[1.649s][info][gc,phases      ] GC(29) Phase 4: Move objects 2.386ms
+[1.650s][info][gc,heap        ] GC(29) DefNew: 102399K(102400K)->11275K(230464K) Eden: 91072K(91072K)->11275K(204864K) From: 11327K(11328K)->0K(25600K)
+[1.650s][info][gc,heap        ] GC(29) Tenured: 216125K(227348K)->307220K(512036K)
+[1.650s][info][gc,metaspace   ] GC(29) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[1.650s][info][gc             ] GC(29) Pause Full (Allocation Failure) 311M->311M(725M) 254.290ms
+[1.650s][info][gc,cpu         ] GC(29) User=0.27s Sys=0.00s Real=0.26s
+[1.861s][info][gc,start       ] GC(30) Pause Young (Allocation Failure)
+[2.206s][info][gc,heap        ] GC(30) DefNew: 204864K(230464K)->25599K(230464K) Eden: 204864K(204864K)->0K(204864K) From: 0K(25600K)->25599K(25600K)
+[2.206s][info][gc,heap        ] GC(30) Tenured: 307220K(512036K)->486459K(512036K)
+[2.206s][info][gc,metaspace   ] GC(30) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[2.206s][info][gc             ] GC(30) Pause Young (Allocation Failure) 500M->500M(725M) 345.245ms
+[2.206s][info][gc,cpu         ] GC(30) User=0.30s Sys=0.05s Real=0.35s
+[2.396s][info][gc,start       ] GC(31) Pause Young (Allocation Failure)
+[2.796s][info][gc             ] GC(31) Pause Young (Allocation Failure) 700M->700M(900M) 399.748ms
+[2.796s][info][gc,cpu         ] GC(31) User=0.30s Sys=0.09s Real=0.40s
+[2.796s][info][gc,start       ] GC(32) Pause Full (Allocation Failure)
+[2.796s][info][gc,phases,start] GC(32) Phase 1: Mark live objects
+[3.118s][info][gc,phases      ] GC(32) Phase 1: Mark live objects 321.835ms
+[3.118s][info][gc,phases,start] GC(32) Phase 2: Compute new object addresses
+[3.225s][info][gc,phases      ] GC(32) Phase 2: Compute new object addresses 107.283ms
+[3.225s][info][gc,phases,start] GC(32) Phase 3: Adjust pointers
+[3.344s][info][gc,phases      ] GC(32) Phase 3: Adjust pointers 118.364ms
+[3.344s][info][gc,phases,start] GC(32) Phase 4: Move objects
+[3.350s][info][gc,phases      ] GC(32) Phase 4: Move objects 5.874ms
+[3.352s][info][gc,heap        ] GC(32) DefNew: 230463K(230464K)->25526K(518592K) Eden: 204864K(204864K)->25526K(460992K) From: 25599K(25600K)->0K(57600K)
+[3.352s][info][gc,heap        ] GC(32) Tenured: 486459K(512036K)->691363K(1152276K)
+[3.352s][info][gc,metaspace   ] GC(32) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[3.352s][info][gc             ] GC(32) Pause Full (Allocation Failure) 700M->700M(1631M) 555.709ms
+[3.352s][info][gc,cpu         ] GC(32) User=0.55s Sys=0.00s Real=0.56s
+[3.831s][info][gc,start       ] GC(33) Pause Young (Allocation Failure)
+[4.630s][info][gc,heap        ] GC(33) DefNew: 460992K(518592K)->57599K(518592K) Eden: 460992K(460992K)->0K(460992K) From: 0K(57600K)->57599K(57600K)
+[4.630s][info][gc,heap        ] GC(33) Tenured: 691363K(1152276K)->1094728K(1152276K)
+[4.630s][info][gc,metaspace   ] GC(33) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[4.630s][info][gc             ] GC(33) Pause Young (Allocation Failure) 1125M->1125M(1631M) 798.910ms
+[4.630s][info][gc,cpu         ] GC(33) User=0.59s Sys=0.19s Real=0.80s
+[5.090s][info][gc,start       ] GC(34) Pause Young (Allocation Failure)
+[5.836s][info][gc             ] GC(34) Pause Young (Allocation Failure) 1575M->1522M(1972M) 745.471ms
+[5.836s][info][gc,cpu         ] GC(34) User=0.62s Sys=0.12s Real=0.75s
+[5.836s][info][gc,start       ] GC(35) Pause Full (Allocation Failure)
+[5.836s][info][gc,phases,start] GC(35) Phase 1: Mark live objects
+[6.512s][info][gc,phases      ] GC(35) Phase 1: Mark live objects 676.173ms
+[6.512s][info][gc,phases,start] GC(35) Phase 2: Compute new object addresses
+[6.734s][info][gc,phases      ] GC(35) Phase 2: Compute new object addresses 222.079ms
+[6.734s][info][gc,phases,start] GC(35) Phase 3: Adjust pointers
+[7.011s][info][gc,phases      ] GC(35) Phase 3: Adjust pointers 276.365ms
+[7.011s][info][gc,phases,start] GC(35) Phase 4: Move objects
+[7.022s][info][gc,phases      ] GC(35) Phase 4: Move objects 10.896ms
+[7.026s][info][gc,heap        ] GC(35) DefNew: 518591K(518592K)->57490K(1126080K) Eden: 460992K(460992K)->57490K(1000960K) From: 57599K(57600K)->0K(125120K)
+[7.026s][info][gc,heap        ] GC(35) Tenured: 1094728K(1152276K)->1501399K(2502336K)
+[7.026s][info][gc,metaspace   ] GC(35) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[7.026s][info][gc             ] GC(35) Pause Full (Allocation Failure) 1522M->1522M(3543M) 1190.199ms
+[7.026s][info][gc,cpu         ] GC(35) User=1.17s Sys=0.00s Real=1.19s
+[8.014s][info][gc,start       ] GC(36) Pause Young (Allocation Failure)
+[9.778s][info][gc,heap        ] GC(36) DefNew: 1000960K(1126080K)->125120K(1126080K) Eden: 1000960K(1000960K)->0K(1000960K) From: 0K(125120K)->125120K(125120K)
+[9.778s][info][gc,heap        ] GC(36) Tenured: 1501399K(2502336K)->2377210K(2502336K)
+[9.778s][info][gc,metaspace   ] GC(36) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[9.778s][info][gc             ] GC(36) Pause Young (Allocation Failure) 2443M->2443M(3543M) 1763.824ms
+[9.778s][info][gc,cpu         ] GC(36) User=1.50s Sys=0.25s Real=1.76s
+[10.744s][info][gc,start       ] GC(37) Pause Young (Allocation Failure)
+[12.493s][info][gc             ] GC(37) Pause Young (Allocation Failure) 3421M->3421M(4398M) 1749.082ms
+[12.493s][info][gc,cpu         ] GC(37) User=1.38s Sys=0.33s Real=1.75s
+[12.493s][info][gc,start       ] GC(38) Pause Full (Allocation Failure)
+[12.493s][info][gc,phases,start] GC(38) Phase 1: Mark live objects
+[14.067s][info][gc,phases      ] GC(38) Phase 1: Mark live objects 1573.373ms
+[14.067s][info][gc,phases,start] GC(38) Phase 2: Compute new object addresses
+[14.582s][info][gc,phases      ] GC(38) Phase 2: Compute new object addresses 515.707ms
+[14.583s][info][gc,phases,start] GC(38) Phase 3: Adjust pointers
+[15.278s][info][gc,phases      ] GC(38) Phase 3: Adjust pointers 695.760ms
+[15.278s][info][gc,phases,start] GC(38) Phase 4: Move objects
+[15.924s][info][gc,phases      ] GC(38) Phase 4: Move objects 646.086ms
+[15.934s][info][gc,heap        ] GC(38) DefNew: 1126080K(1126080K)->30874K(2533696K) Eden: 1000960K(1000960K)->30874K(2252224K) From: 125120K(125120K)->0K(281472K)
+[15.934s][info][gc,heap        ] GC(38) Tenured: 2377210K(2502336K)->3378179K(5630300K)
+[15.934s][info][gc,metaspace   ] GC(38) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[15.934s][info][gc             ] GC(38) Pause Full (Allocation Failure) 3421M->3329M(7972M) 3440.576ms
+[15.934s][info][gc,cpu         ] GC(38) User=3.45s Sys=0.00s Real=3.44s
+[18.217s][info][gc,start       ] GC(39) Pause Young (Allocation Failure)
+[22.243s][info][gc,heap        ] GC(39) DefNew: 2252224K(2533696K)->281471K(2533696K) Eden: 2252224K(2252224K)->0K(2252224K) From: 0K(281472K)->281471K(281472K)
+[22.243s][info][gc,heap        ] GC(39) Tenured: 3378179K(5630300K)->5348902K(5630300K)
+[22.243s][info][gc,metaspace   ] GC(39) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[22.243s][info][gc             ] GC(39) Pause Young (Allocation Failure) 5498M->5498M(7972M) 4025.824ms
+[22.243s][info][gc,cpu         ] GC(39) User=3.52s Sys=0.52s Real=4.03s
+[24.340s][info][gc,start       ] GC(40) Pause Young (Allocation Failure)
+[28.339s][info][gc             ] GC(40) Pause Young (Allocation Failure) 7697M->7697M(9897M) 3998.062ms
+[28.339s][info][gc,cpu         ] GC(40) User=3.31s Sys=0.61s Real=4.00s
+[28.339s][info][gc,start       ] GC(41) Pause Full (Allocation Failure)
+[28.339s][info][gc,phases,start] GC(41) Phase 1: Mark live objects
+[32.041s][info][gc,phases      ] GC(41) Phase 1: Mark live objects 3702.630ms
+[32.041s][info][gc,phases,start] GC(41) Phase 2: Compute new object addresses
+[33.309s][info][gc,phases      ] GC(41) Phase 2: Compute new object addresses 1267.570ms
+[33.309s][info][gc,phases,start] GC(41) Phase 3: Adjust pointers
+[34.658s][info][gc,phases      ] GC(41) Phase 3: Adjust pointers 1348.577ms
+[34.658s][info][gc,phases,start] GC(41) Phase 4: Move objects
+[34.720s][info][gc,phases      ] GC(41) Phase 4: Move objects 61.898ms
+[34.809s][info][gc,heap        ] GC(41) DefNew: 2533695K(2533696K)->281323K(4823040K) Eden: 2252224K(2252224K)->281323K(4287168K) From: 281471K(281472K)->0K(535872K)
+[34.809s][info][gc,heap        ] GC(41) Tenured: 5348902K(5630300K)->7601247K(10717888K)
+[34.809s][info][gc,metaspace   ] GC(41) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[34.809s][info][gc             ] GC(41) Pause Full (Allocation Failure) 7697M->7697M(15176M) 6470.571ms
+[34.809s][info][gc,cpu         ] GC(41) User=6.39s Sys=0.00s Real=6.47s
+[38.670s][info][gc,start       ] GC(42) Pause Young (Allocation Failure)
+[50.366s][info][gc,promotion   ] GC(42) Promotion failed
+[50.382s][info][gc             ] GC(42) Pause Young (Allocation Failure) 11502M->15069M(15176M) 11708.216ms
+[50.382s][info][gc,cpu         ] GC(42) User=7.58s Sys=2.14s Real=11.71s
+[50.382s][info][gc,start       ] GC(43) Pause Full (Allocation Failure)
+[50.383s][info][gc,phases,start] GC(43) Phase 1: Mark live objects
+[80.273s][info][gc,phases      ] GC(43) Phase 1: Mark live objects 29890.494ms
+[80.273s][info][gc,phases,start] GC(43) Phase 2: Compute new object addresses
+[96.100s][info][gc,phases      ] GC(43) Phase 2: Compute new object addresses 15825.314ms
+[96.101s][info][gc,phases,start] GC(43) Phase 3: Adjust pointers
+[112.925s][info][gc,phases      ] GC(43) Phase 3: Adjust pointers 16824.500ms
+[112.925s][info][gc,phases,start] GC(43) Phase 4: Move objects
+[117.470s][info][gc,phases      ] GC(43) Phase 4: Move objects 4544.913ms
+[117.840s][info][gc,heap        ] GC(43) DefNew: 4177238K(4823040K)->1001131K(4823040K) Eden: 4177238K(4287168K)->1001131K(4287168K) From: 0K(535872K)->0K(535872K)
+[117.840s][info][gc,heap        ] GC(43) Tenured: 7601247K(10717888K)->10717887K(10717888K)
+[117.841s][info][gc,metaspace   ] GC(43) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[117.845s][info][gc             ] GC(43) Pause Full (Allocation Failure) 15069M->11444M(15176M) 67460.486ms
+[117.846s][info][gc,cpu         ] GC(43) User=8.84s Sys=22.73s Real=67.46s
+[129.429s][info][gc,start       ] GC(44) Pause Full (Allocation Failure)
+[129.430s][info][gc,phases,start] GC(44) Phase 1: Mark live objects
+[154.296s][info][gc,phases      ] GC(44) Phase 1: Mark live objects 24865.995ms
+[154.296s][info][gc,phases,start] GC(44) Phase 2: Compute new object addresses
+[167.523s][info][gc,phases      ] GC(44) Phase 2: Compute new object addresses 13218.362ms
+[167.523s][info][gc,phases,start] GC(44) Phase 3: Adjust pointers
+[189.620s][info][gc,phases      ] GC(44) Phase 3: Adjust pointers 22086.355ms
+[189.621s][info][gc,phases,start] GC(44) Phase 4: Move objects
+[190.205s][info][gc,phases      ] GC(44) Phase 4: Move objects 584.201ms
+[190.218s][info][gc,heap        ] GC(44) DefNew: 4823039K(4823040K)->4823020K(4823040K) Eden: 4287168K(4287168K)->4287167K(4287168K) From: 535871K(535872K)->535852K(535872K)
+[190.218s][info][gc,heap        ] GC(44) Tenured: 10717887K(10717888K)->10717887K(10717888K)
+[190.218s][info][gc,metaspace   ] GC(44) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[190.219s][info][gc             ] GC(44) Pause Full (Allocation Failure) 15176M->15176M(15176M) 60790.076ms
+[190.220s][info][gc,cpu         ] GC(44) User=11.52s Sys=22.02s Real=60.79s
+[190.221s][info][gc,start       ] GC(45) Pause Full (Allocation Failure)
+[190.222s][info][gc,phases,start] GC(45) Phase 1: Mark live objects
+[210.983s][info][gc,phases      ] GC(45) Phase 1: Mark live objects 20761.443ms
+[210.983s][info][gc,phases,start] GC(45) Phase 2: Compute new object addresses
+[219.992s][info][gc,phases      ] GC(45) Phase 2: Compute new object addresses 9007.572ms
+[219.993s][info][gc,phases,start] GC(45) Phase 3: Adjust pointers
+[241.050s][info][gc,phases      ] GC(45) Phase 3: Adjust pointers 21057.037ms
+[241.050s][info][gc,phases,start] GC(45) Phase 4: Move objects
+[245.632s][info][gc,phases      ] GC(45) Phase 4: Move objects 4582.135ms
+[245.641s][info][gc,heap        ] GC(45) DefNew: 4823039K(4823040K)->4429823K(4823040K) Eden: 4287167K(4287168K)->4287167K(4287168K) From: 535871K(535872K)->142655K(535872K)
+[245.642s][info][gc,heap        ] GC(45) Tenured: 10717887K(10717888K)->10717887K(10717888K)
+[245.642s][info][gc,metaspace   ] GC(45) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[245.642s][info][gc             ] GC(45) Pause Full (Allocation Failure) 15176M->14792M(15176M) 55421.282ms
+[245.643s][info][gc,cpu         ] GC(45) User=14.61s Sys=21.05s Real=55.42s
+[246.826s][info][gc,start       ] GC(46) Pause Full (Allocation Failure)
+[246.827s][info][gc,phases,start] GC(46) Phase 1: Mark live objects
+[279.922s][info][gc,phases      ] GC(46) Phase 1: Mark live objects 33095.623ms
+[279.923s][info][gc,phases,start] GC(46) Phase 2: Compute new object addresses
+[295.572s][info][gc,phases      ] GC(46) Phase 2: Compute new object addresses 15648.760ms
+[295.573s][info][gc,phases,start] GC(46) Phase 3: Adjust pointers
+[325.092s][info][gc,phases      ] GC(46) Phase 3: Adjust pointers 29516.129ms
+[325.094s][info][gc,phases,start] GC(46) Phase 4: Move objects
+[325.096s][info][gc,phases      ] GC(46) Phase 4: Move objects 2.193ms
+[325.125s][info][gc,heap        ] GC(46) DefNew: 4823039K(4823040K)->4823039K(4823040K) Eden: 4287168K(4287168K)->4287168K(4287168K) From: 535871K(535872K)->535871K(535872K)
+[325.125s][info][gc,heap        ] GC(46) Tenured: 10717887K(10717888K)->10717887K(10717888K)
+[325.125s][info][gc,metaspace   ] GC(46) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[325.130s][info][gc             ] GC(46) Pause Full (Allocation Failure) 15176M->15176M(15176M) 78303.853ms
+[325.131s][info][gc,cpu         ] GC(46) User=9.81s Sys=30.84s Real=78.31s
+[325.132s][info][gc,start       ] GC(47) Pause Full (Allocation Failure)
+[325.133s][info][gc,phases,start] GC(47) Phase 1: Mark live objects
+[355.125s][info][gc,phases      ] GC(47) Phase 1: Mark live objects 29992.599ms
+[355.125s][info][gc,phases,start] GC(47) Phase 2: Compute new object addresses
+[373.664s][info][gc,phases      ] GC(47) Phase 2: Compute new object addresses 18537.685ms
+[373.664s][info][gc,phases,start] GC(47) Phase 3: Adjust pointers
+[423.080s][info][gc,phases      ] GC(47) Phase 3: Adjust pointers 49415.703ms
+[423.080s][info][gc,phases,start] GC(47) Phase 4: Move objects
+[469.192s][info][gc,phases      ] GC(47) Phase 4: Move objects 46110.844ms
+[469.211s][info][gc,heap        ] GC(47) DefNew: 4823039K(4823040K)->4823035K(4823040K) Eden: 4287168K(4287168K)->4287167K(4287168K) From: 535871K(535872K)->535867K(535872K)
+[469.212s][info][gc,heap        ] GC(47) Tenured: 10717887K(10717888K)->10717887K(10717888K)
+[469.212s][info][gc,metaspace   ] GC(47) Metaspace: 6303K(6528K)->6301K(6528K) NonClass: 5769K(5888K)->5768K(5888K) Class: 533K(640K)->532K(640K)
+[469.213s][info][gc             ] GC(47) Pause Full (Allocation Failure) 15176M->15176M(15176M) 144081.054ms
+[469.214s][info][gc,cpu         ] GC(47) User=11.70s Sys=51.11s Real=144.08s
+[469.241s][info][gc,start       ] GC(48) Pause Full (Allocation Failure)
+[469.242s][info][gc,phases,start] GC(48) Phase 1: Mark live objects
+[500.671s][info][gc,phases      ] GC(48) Phase 1: Mark live objects 31428.360ms
+[500.671s][info][gc,phases,start] GC(48) Phase 2: Compute new object addresses
+[511.821s][info][gc,phases      ] GC(48) Phase 2: Compute new object addresses 11150.365ms
+[511.821s][info][gc,phases,start] GC(48) Phase 3: Adjust pointers
+[532.518s][info][gc,phases      ] GC(48) Phase 3: Adjust pointers 20696.993ms
+[532.518s][info][gc,phases,start] GC(48) Phase 4: Move objects
+[532.519s][info][gc,phases      ] GC(48) Phase 4: Move objects 0.129ms
+[532.544s][info][gc,heap        ] GC(48) DefNew: 4823039K(4823040K)->4823039K(4823040K) Eden: 4287167K(4287168K)->4287167K(4287168K) From: 535871K(535872K)->535871K(535872K)
+[532.544s][info][gc,heap        ] GC(48) Tenured: 10717887K(10717888K)->10717887K(10717888K)
+[532.544s][info][gc,metaspace   ] GC(48) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 532K(640K)->532K(640K)
+[532.546s][info][gc             ] GC(48) Pause Full (Allocation Failure) 15176M->15176M(15176M) 63304.475ms
+[532.546s][info][gc,cpu         ] GC(48) User=11.55s Sys=26.08s Real=63.31s
+[532.546s][info][gc,start       ] GC(49) Pause Full (Allocation Failure)
+[532.547s][info][gc,phases,start] GC(49) Phase 1: Mark live objects
+[563.479s][info][gc,phases      ] GC(49) Phase 1: Mark live objects 30932.036ms
+[563.479s][info][gc,phases,start] GC(49) Phase 2: Compute new object addresses
+[580.359s][info][gc,phases      ] GC(49) Phase 2: Compute new object addresses 16879.508ms
+[580.359s][info][gc,phases,start] GC(49) Phase 3: Adjust pointers
+[608.663s][info][gc,phases      ] GC(49) Phase 3: Adjust pointers 28303.115ms
+[608.663s][info][gc,phases,start] GC(49) Phase 4: Move objects
+[608.663s][info][gc,phases      ] GC(49) Phase 4: Move objects 0.132ms
+[608.673s][info][gc,heap        ] GC(49) DefNew: 4823039K(4823040K)->4823039K(4823040K) Eden: 4287167K(4287168K)->4287167K(4287168K) From: 535871K(535872K)->535871K(535872K)
+[608.673s][info][gc,heap        ] GC(49) Tenured: 10717887K(10717888K)->10717887K(10717888K)
+[608.673s][info][gc,metaspace   ] GC(49) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 532K(640K)->532K(640K)
+[608.675s][info][gc             ] GC(49) Pause Full (Allocation Failure) 15176M->15176M(15176M) 76128.219ms
+[608.675s][info][gc,cpu         ] GC(49) User=11.42s Sys=29.47s Real=76.13s
+[608.699s][info][gc,start       ] GC(50) Pause Full (Allocation Failure)
+[608.700s][info][gc,phases,start] GC(50) Phase 1: Mark live objects
+[637.621s][info][gc,phases      ] GC(50) Phase 1: Mark live objects 28921.328ms
+[637.623s][info][gc,phases,start] GC(50) Phase 2: Compute new object addresses
+[651.103s][info][gc,phases      ] GC(50) Phase 2: Compute new object addresses 13479.434ms
+[651.103s][info][gc,phases,start] GC(50) Phase 3: Adjust pointers
+[686.543s][info][gc,phases      ] GC(50) Phase 3: Adjust pointers 35439.076ms
+[686.543s][info][gc,phases,start] GC(50) Phase 4: Move objects
+[686.543s][info][gc,phases      ] GC(50) Phase 4: Move objects 0.063ms
+[686.554s][info][gc,heap        ] GC(50) DefNew: 4823039K(4823040K)->4823039K(4823040K) Eden: 4287168K(4287168K)->4287168K(4287168K) From: 535871K(535872K)->535871K(535872K)
+[686.554s][info][gc,heap        ] GC(50) Tenured: 10717888K(10717888K)->10717888K(10717888K)
+[686.554s][info][gc,metaspace   ] GC(50) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 532K(640K)->532K(640K)
+[686.556s][info][gc             ] GC(50) Pause Full (Allocation Failure) 15176M->15176M(15176M) 77856.420ms
+[686.557s][info][gc,cpu         ] GC(50) User=10.62s Sys=31.02s Real=77.86s
+[686.557s][info][gc,start       ] GC(51) Pause Full (Allocation Failure)
+[686.557s][info][gc,phases,start] GC(51) Phase 1: Mark live objects
+[715.891s][info][gc,phases      ] GC(51) Phase 1: Mark live objects 29333.915ms
+[715.892s][info][gc,phases,start] GC(51) Phase 2: Compute new object addresses
+[734.317s][info][gc,phases      ] GC(51) Phase 2: Compute new object addresses 18424.391ms
+[734.318s][info][gc,phases,start] GC(51) Phase 3: Adjust pointers
+[765.008s][info][gc,phases      ] GC(51) Phase 3: Adjust pointers 30690.113ms
+[765.008s][info][gc,phases,start] GC(51) Phase 4: Move objects
+[804.389s][info][gc,phases      ] GC(51) Phase 4: Move objects 39381.245ms
+[804.402s][info][gc,heap        ] GC(51) DefNew: 4823039K(4823040K)->4823038K(4823040K) Eden: 4287168K(4287168K)->4287167K(4287168K) From: 535871K(535872K)->535870K(535872K)
+[804.402s][info][gc,heap        ] GC(51) Tenured: 10717888K(10717888K)->10717887K(10717888K)
+[804.402s][info][gc,metaspace   ] GC(51) Metaspace: 6301K(6528K)->6301K(6528K) NonClass: 5768K(5888K)->5768K(5888K) Class: 532K(640K)->532K(640K)
+[804.403s][info][gc             ] GC(51) Pause Full (Allocation Failure) 15176M->15176M(15176M) 117845.760ms
+[804.403s][info][gc,cpu         ] GC(51) User=12.92s Sys=54.16s Real=117.85s
+[804.470s][info][gc,start       ] GC(52) Pause Full (Allocation Failure)
+[804.471s][info][gc,phases,start] GC(52) Phase 1: Mark live objects
+[839.368s][info][gc,phases      ] GC(52) Phase 1: Mark live objects 34897.560ms
+[839.371s][info][gc,phases,start] GC(52) Phase 2: Compute new object addresses
+[854.644s][info][gc,phases      ] GC(52) Phase 2: Compute new object addresses 15272.290ms
+[854.644s][info][gc,phases,start] GC(52) Phase 3: Adjust pointers
+[883.646s][info][gc,phases      ] GC(52) Phase 3: Adjust pointers 29001.386ms
+[883.647s][info][gc,phases,start] GC(52) Phase 4: Move objects
+[883.647s][info][gc,phases      ] GC(52) Phase 4: Move objects 0.192ms
+[883.665s][info][gc,heap        ] GC(52) DefNew: 4823039K(4823040K)->4823038K(4823040K) Eden: 4287167K(4287168K)->4287167K(4287168K) From: 535871K(535872K)->535870K(535872K)
+[883.665s][info][gc,heap        ] GC(52) Tenured: 10717887K(10717888K)->10717887K(10717888K)
+[883.666s][info][gc,metaspace   ] GC(52) Metaspace: 6303K(6528K)->6303K(6528K) NonClass: 5769K(5888K)->5769K(5888K) Class: 533K(640K)->533K(640K)
+[883.667s][info][gc             ] GC(52) Pause Full (Allocation Failure) 15176M->15176M(15176M) 79196.641ms
+[883.667s][info][gc,cpu         ] GC(52) User=10.48s Sys=34.92s Real=79.20s
+[883.695s][info][gc,heap,exit   ] Heap
+[883.695s][info][gc,heap,exit   ]  def new generation   total 4823040K, used 4823039K [0x000000042ac00000, 0x0000000571d50000, 0x0000000571d50000)
+[883.695s][info][gc,heap,exit   ]   eden space 4287168K,  99% used [0x000000042ac00000, 0x00000005306afff8, 0x00000005306b0000)
+[883.695s][info][gc,heap,exit   ]   from space 535872K,  99% used [0x0000000551200000, 0x0000000571d4ff18, 0x0000000571d50000)
+[883.695s][info][gc,heap,exit   ]   to   space 535872K,   0% used [0x00000005306b0000, 0x00000005306b0000, 0x0000000551200000)
+[883.695s][info][gc,heap,exit   ]  tenured generation   total 10717888K, used 10717887K [0x0000000571d50000, 0x0000000800000000, 0x0000000800000000)
+[883.695s][info][gc,heap,exit   ]    the space 10717888K,  99% used [0x0000000571d50000, 0x00000007fffffff0, 0x0000000800000000, 0x0000000800000000)
+[883.695s][info][gc,heap,exit   ]  Metaspace       used 6306K, committed 6528K, reserved 1114112K
+[883.695s][info][gc,heap,exit   ]   class space    used 534K, committed 640K, reserved 1048576K
